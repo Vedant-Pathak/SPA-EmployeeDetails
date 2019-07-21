@@ -2,10 +2,10 @@ angular.module('empList').component('empList',{
     templateUrl: 'emp-list/emp-list.template.html',
     controller: ['$http', function EmpListController($http) {
         var self = this;
-        self.orderProp = 'age';
+        self.orderProp = 'salary';
   
         $http.get('employees/employees.json').then((response) => {
-          self.phones = response.data;
+          self.employees = response.data;
         });
       }]
 });
