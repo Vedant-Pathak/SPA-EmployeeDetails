@@ -1,0 +1,22 @@
+[
+    {   
+        "name": "Vedant",
+        "empID": 1061708,
+        "salary": 81000
+    },
+    {
+        "name": "Gaurvi",
+        "empID": 1060211,
+        "salary": 0
+    },
+    {
+        "name": "Ashish",
+        "empID": 1061601,
+        "salary": 140000   
+    },
+    {
+        "name": "Pushpa",
+        "empID": 1062901,
+        "salary": 46000
+    }
+]
