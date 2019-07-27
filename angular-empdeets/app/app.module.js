@@ -1,7 +1,7 @@
 'use strict';
 
-// Define the `phonecatApp` module
+// Define the `empdeetApp` module
 angular.module('empdeetApp', [
-  // ...which depends on the `phoneList` module
+  // ...which depends on the `empList` module
   'empList'
 ]);

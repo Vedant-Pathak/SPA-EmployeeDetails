@@ -1,22 +1,22 @@
 [
     {   
-        "name": "Vedant",
+        "name": "mohun",
         "empID": 1061708,
-        "salary": 81000
+        "salary": 8000
     },
     {
-        "name": "Gaurvi",
+        "name": "anil",
         "empID": 1060211,
-        "salary": 0
+        "salary": 10000
     },
     {
-        "name": "Ashish",
+        "name": "manish",
         "empID": 1061601,
-        "salary": 140000   
+        "salary": 14000   
     },
     {
-        "name": "Pushpa",
+        "name": "kanta",
         "empID": 1062901,
-        "salary": 46000
+        "salary": 12000
     }
 ]
