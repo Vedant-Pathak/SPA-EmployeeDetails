@@ -9,8 +9,8 @@ angular.
       function EmpDetailController($http, $routeParams) {
         var self = this;
 
-        $http.get('employees/' + $routeParams.name + '.json').then(function(response) {
-          self.phone = response.data;
+        $http.get('employees/' + $routeParams.employeeId + '.json').then(function(response) {
+          self.employee = response.data;
         });
       }
     ]

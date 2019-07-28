@@ -5,7 +5,7 @@ config(
         when('/employees',                //URL fragment 
         {template: '<emp-list></emp-list>'
         }).
-        when('/employees/:name', {            //$routeParam defined
+        when('/employees/:employeeId', {            //$routeParam defined
             template: '<emp-detail></emp-detail>'
           }).
           otherwise('/employees');

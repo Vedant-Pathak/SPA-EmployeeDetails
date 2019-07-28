@@ -23,9 +23,9 @@
         <ul class="employees">
           <li ng-repeat="employee in $ctrl.employees | filter:$ctrl.query | orderBy:$ctrl.orderProp">
             <span>{{employee.name}}</span>
-            <p>{{employee.empID}}</p>
+            <p>{{employee.id}}</p>
             <p>{{employee.salary}}</p>
-            <a href="#!/employees/{{employee.name}}">Click here for further deets!</a>
+            <a href="#!/employees/{{employee.id}}">Click here for further deets!</a>
           </li>
         </ul>
   
